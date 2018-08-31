@@ -1,5 +1,6 @@
 npm install -g @dojo/cli
 npm install -g @dojo/cli-create-app
+npm install -g @dojo/cli-create-widget
 npm install -g @dojo/cli-build-widget
 
 dojo create app --name dojo-02
