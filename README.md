@@ -1,4 +1,4 @@
-dojo create app --name dojo-01
+dojo create app --name dojo-02
 dojo build --mode dist
 dojo build --mode dev
 dojo build --mode dev --watch memory --serve
@@ -12,10 +12,10 @@ dojo test -f
 2. Commit Repo (VSCode)
 
 3. Create Repo (GitHub REST API)
--> curl -u 'kwokhung' https://api.github.com/user/repos -d '{"name":"dojo-01"}'
+-> curl -u 'kwokhung' https://api.github.com/user/repos -d '{"name":"dojo-02"}'
 
 4. Remote Add Origin
--> git remote add origin https://github.com/kwokhung/dojo-01
+-> git remote add origin https://github.com/kwokhung/dojo-02
 
 5. Push Origin Master
 -> git push -u origin master
