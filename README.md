@@ -1,4 +1,9 @@
+npm install -g @dojo/cli
+npm install -g @dojo/cli-create-app
+npm install -g @dojo/cli-build-widget
+
 dojo create app --name dojo-02
+
 dojo build --mode dist
 dojo build --mode dev
 dojo build --mode dev --watch memory --serve
@@ -6,6 +11,7 @@ dojo test
 dojo test -c local
 dojo build --mode test
 dojo test -f
+dojo build widget --mode dev
 
 1. Init Repo (VSCode)
 
