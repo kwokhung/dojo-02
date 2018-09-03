@@ -4,6 +4,7 @@ npm install -g @dojo/cli-create-widget
 npm install -g @dojo/cli-build-widget
 
 dojo create app --name dojo-02
+dojo create widget --name Dummy --component
 
 dojo build --mode dist
 dojo build --mode dev

@@ -4,26 +4,14 @@
 	<title>dojo-02</title>
 	<meta name="theme-color" content="#222127">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="menu/menu-1.0.0.css" />
-	<link rel="stylesheet" href="menu-item/menu-item-1.0.0.css" />
+	<link rel="stylesheet" href="dummy/dummy-1.0.0.css" />
+	<!--script src="//cdnjs.cloudflare.com/ajax/libs/custom-elements/1.2.0/custom-elements.min.js"></script-->
+	<script src="custom-elements/custom-elements.min.js"></script>
 </head>
 <body>
-	<div class="menu-container">
-		<demo-menu id="menu">
-			<demo-menu-item id="a" title="Menu Item A"></demo-menu-item>
-			<demo-menu-item id="b" title="Menu Item B"></demo-menu-item>
-			<demo-menu-item id="c" title="Menu Item C"></demo-menu-item>
-		</demo-menu>
+	<div>
+		<dojo-Dummy></dojo-Dummy>
 	</div>
-	<script>
-		c.selected = true;
-		a.data = { foo: 'bar' };
-		menu.addEventListener('selected', function(event) {
-			const detail = event.detail;
-			console.log(detail);
-		});
-	</script>
-	<script src="menu/menu-1.0.0.js"></script>
-	<script src="menu-item/menu-item-1.0.0.js"></script>
+	<script src="dummy/dummy-1.0.0.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
   "name": "dojo-02",
   "version": "1.0.0",
   "dependencies": {
+    "@dojo/cli-build-widget": "^3.0.0",
     "@dojo/framework": "~3.0.0",
     "tslib": "~1.8.1"
   },
